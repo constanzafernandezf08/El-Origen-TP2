@@ -1,0 +1,90 @@
+.link{
+    
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: all .3s ease-out;
+}
+  
+.link:hover{
+    background-color: #75140c;
+    color: #fbf7f7;
+    scale: 1.2;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background-color: #fbf7f7;
+    align-items: center;
+}
+
+.centro{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+   
+}
+.centro a{
+    white-space: nowrap;
+}
+
+.ficha{
+    display: flex;
+    gap: 30px;
+    font-size: medium;
+    
+}
+
+.actor{
+    display: flex;
+    font-size: medium;
+    gap: 30px;
+}
+.contacto {
+    background-color: #fbf7f7;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: #75140c;
+    h1{
+        text-align: center;
+    }
+}
+.datos{
+    display: flex;
+    gap: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.datos label{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.cajas{
+    border: 1px solid #75140c;
+    border-radius: 12px;
+    font-size: small;
+    width: 100%;
+    padding: 7px;
+}
+#check{
+    font-size: x-small;
+}
+
+.curiosidades{
+    background-color: #fbf7f7;
+    color: #75140c;
+    padding: 30px;
+    border-radius: 12px;
+}
