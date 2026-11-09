@@ -46,6 +46,9 @@ header{
     font-size: medium;
     gap: 30px;
 }
+.actor img{
+    border-radius: 12px;
+}
 .contacto {
     background-color: #fbf7f7;
     width: 60%;
